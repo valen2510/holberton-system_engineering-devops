@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -name ".*" -ls | wc -l
+find . -maxdepth 1 -type d -name ".*" | wc -l
