@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Get to run Apache on a container to return a page containing Hello Holberton when querying the root.
+service apache2 start
