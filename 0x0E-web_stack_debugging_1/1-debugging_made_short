@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Configure a server to listen at port 80 (Different answer)
+sudo sed -i 's/8080/80/' /etc/nginx/sites-enabled/default
+pkill -1 nginx
