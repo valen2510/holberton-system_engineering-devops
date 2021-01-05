@@ -2,5 +2,5 @@
 # Script to configure container to fit the requirements [Short].
 pkill -f apache2
 sed -i 's/80/8080/' /etc/nginx/sites-enabled/default
-sed -i '1i\user nginx;' /etc/nginx/nginx.conf | chmod 007 /etc/nginx/nginx.conf
+sed -i 's/#user www-data/user nginx/' /etc/nginx/nginx.conf | chmod 007 /etc/nginx/nginx.conf
 sudo -u nginx service nginx restart
