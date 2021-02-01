@@ -20,7 +20,7 @@ if __name__ == "__main__":
         if dic['completed']:
             done_tasks.append(dic['title'])
 
-    print('Employee {} is done with tasks({}/{})'
+    print('Employee {} is done with tasks({}/{}):'
           .format(employee_name, len(done_tasks), len(total_tasks)))
     for tasks in done_tasks:
         print('\t', tasks)
