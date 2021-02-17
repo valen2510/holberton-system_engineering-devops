@@ -16,4 +16,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* valen2510 - [davidgonzalezfx](https://github.com/valen2510)
+* valen2510 - [valen2510](https://github.com/valen2510)
